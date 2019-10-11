@@ -1,6 +1,19 @@
 import json
 import hashlib
 
+"""
+1. Make some transactions
+2. Find a proof for the hash of each transaction, and put the hash/proof combo in the next transaction
+3. Test that a transaction is correct with the hash and the proof
+4. Turn a transaction into a block
+5. Create a function to make a transaction
+6. Create a function to make a block 
+7. Store the transaction in a transaction list 
+8. Stroe blocks in a blocks list
+9. Refactor 'make a proof' into two functions
+"""
+
+
 firstTransaction = {
   'tim': -10,
   'steve': 10
